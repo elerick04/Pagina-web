@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+body {
+  background-color: #2a363b;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Archivo', sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-weight: 650;
+}
+.titulo {
+  background-color: #99b898;
+  width: 80vw;
+  margin: 0.625rem;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+}
+#tribute-info {
+  background-color: #ff847c;
+  position: relative;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 0rem 9.375rem;
+  width: 62.5rem;
+  border-radius: 0.625rem;
+}
+.informacion__h2{
+  text-align: center;
+  padding-top: 1.25rem;
+  font-size: 1.5625rem;
+}
+#img-div {
+  background-color: #fecea8;
+  position: relative;
+  padding: 1.5625rem 0rem 0rem;
+  width: 50rem;
+  height: 28.125rem;
+  font-size: 1.20rem;
+  line-height: .5;
+  border-radius: 5px;
+  border: 0.3rem solid white;
+}
+img {
+  max-width: 100%;
+  border-radius: 0.625rem;
+  border: 0.2rem solid white;
+}
+
+.link {
+  background-color: #e84a5f;
+  position: relative;
+  margin: 0.9375rem 0rem 0.4375rem;
+  width: 50rem;
+  border-radius: 10px;
+}
+.frase {
+  text-align: center;
+  padding: 0.9375rem 0rem 1.25rem;
+}
+a {
+  text-decoration:none;
+  color: white;
+}
